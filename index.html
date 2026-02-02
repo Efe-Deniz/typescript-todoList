@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TypeScript ToDo App</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!--Ana Container-->
+        <div class="container">
+            <h1>📋TypeScript ToDo App</h1>
+
+            <!--To do ekleme formu-->
+            <div class="input-container">
+                <input type="text" id="todoInput" placeholder="Yeni Görev Ekle..." />
+                <button id="addBtn">Ekle</button>
+            </div>
+
+            <!--todo listesi-->
+            <ul id="todoList">
+                <!--JavaScript ile buraya todo lar eklenecek-->
+            </ul>
+
+            <!--istatistikler-->
+            <div class="stats">
+                <span>Toplam: <span id="totalCount">0</span> </span>
+                <span>Tamamlanan: <span id="completedCount">0</span> </span>
+                <span>Kalan: <span id="remainingCount">0</span> </span>
+            </div>
+        </div>
+
+        <!--js dosyasını ts dosyasına çevirecez-->
+
+        <script type="modelu" src="./dist/index.js"></script>
+    </body>
+</html>
