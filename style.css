@@ -132,3 +132,23 @@ h1 {
 .stats span span {
     color: #667eea;
 }
+
+/* Boş Mesaj Stili */
+.empty-message {
+    text-align: center;
+    padding: 60px 20px;
+    color: #999;
+    font-size: 18px;
+    font-style: italic;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 15px;
+    margin: 20px 0;
+    border: 2px dashed #ddd;
+}
+
+.empty-message::before {
+    content: '📋';
+    display: block;
+    font-size: 64px;
+    margin-bottom: 20px;
+}

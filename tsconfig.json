@@ -3,8 +3,10 @@
 
     "compilerOptions": {
         "target": "ES2020", // Modern JavaScript'e çevir
-        "module": "ES2015", // ES Module kullan
+        "module": "ES2020", // ES Module kullan
+        "moduleResolution": "node",
         "outDir": "./dist", // JavaScript dosyaları dist/ klasörüne
+
         "rootDir": "./src", // TypeScript dosyaları src/ klasöründe
         "strict": true, // Katı tip kontrolü (önerilen)
         "esModuleInterop": true, // Import/export uyumluluğu
